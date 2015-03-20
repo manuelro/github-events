@@ -1,0 +1,24 @@
+{
+  "name": "github-events",
+  "version": "0.5.0",
+  "description": "An AngularJS directive that displays your public Github events and allows for custom templating",
+  "keywords": ["github", "angular", "public", "events", "widget", "web"],
+  "dependencies": {
+    "angular": "^1.3.0",
+    "angular-resource": "~1.3.15"
+  },
+  "devDependencies": {
+    "angular-mocks": "^1.3.0",
+    "bootstrap": "~3.3.4",
+    "angular-timeago": "~0.1.9"
+  },
+  "appPath": "app",
+  "moduleName": "githubEvents",
+  "authors": {"name": "Manuel Ro", "email":"hola@manuelro.co"},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/manuelro/github-events.git"
+  },
+  "main": ["alt_dist/scripts/github-events.js", "alt_dist/scripts/github-events.min.js"],
+  "ignore": ["app", "Gruntfile.js", "test"]
+}
