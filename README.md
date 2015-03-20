@@ -66,6 +66,9 @@ The events templates bind to a single event type, since ng-repeat creates a vari
       //...
     });
 ```
+#####Dates in templates:
+This directive uses [timeAgo](https://github.com/yaru22/angular-timeago) filters. It is not needed to install this repo separately since it's already bundled with the project. Refer to it's documentation for further details on how to format dates and times with `time ago`.
+
 
 ####Methods Chaining
 The configuration methods allow chaining for easier writing.
