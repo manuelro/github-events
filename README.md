@@ -49,6 +49,8 @@ Using this method you can configure the contents of the error message template.
 ####Customizing Templates
 Use this configuration option if you want to change the template contents for a particular type of event. This method expects 2 parameters and one optional value in the form of (type, section, value). 
 
+![githubEvents directive content distribution](https://raw.githubusercontent.com/manuelro/github-events/master/app/images/github-events.jpg)
+
 The events templates bind to a single event type, since ng-repeat creates a variable named `events`, therefore you can access the event data using AngularJS expressions like follows:
 ```js
   angular.module('myApp', ['githubEvents'])
