@@ -8,11 +8,14 @@ Clone the repo or use Bower to download it to your dependencies folder.
 `bower install github-events --save`
 
 ####Adding GithubEvents to your project
-Add GithubEvents module to your AngularJS app dependencies:
+Add GithubEvents module to your AngularJS app dependencies (ngResource is a requirement):
 ```js
   angular.module('myApp', ['githubEvents']);
   //...
 ```
+
+#####Dependencies
+This directive uses [ngResource](https://github.com/angular/bower-angular-resource) module to consume Github Api. Make sure to include ngResource in your project's scripts.
 
 ##Configuration options
 The GithubEvents Directive allows you to set some configuration inside the config block of your application using the `githubEventsProvider`. The available options are:
