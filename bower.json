@@ -19,6 +19,6 @@
     "type": "git",
     "url": "git://github.com/manuelro/github-events.git"
   },
-  "main": ["alt_dist/scripts/github-events.js", "alt_dist/scripts/github-events.min.js"],
+  "main": ["scripts/github-events.js", "scripts/github-events.min.js"],
   "ignore": ["app", "Gruntfile.js", "test"]
 }
