@@ -766,29 +766,7 @@ angular.module('yaru22.angular-timeago', [
 
 		}]
 	}
-	/**
-        * @ngdoc overview
-        * @name githubEvents.provider:githubEventsProvider
-        * @requires chem.components.button
-        * @description 
-        * The chem.components module is a collection of AngularJS directives for 
-        * rapidly generate the DOM structure for Bootstrap Components.
-        * This module makes use of {@link http://angular-ui.github.io/bootstrap ui.bootstrap}.
-        *
-        *
-        * ##External Dependencies
-        * {@link http://angular-ui.github.io/bootstrap ui.bootstrap}
-        * 
-        * ##Installation
-        * There are may ways to install chem.components in your project.
-        * ###Installing using Bower
-        * You can use {@link http://bower.io Bower} to load chem.components into your project dependencies:
-        * >`bower install chem.components --save`  	
-        *
-        * ###Installing using Npm
-        * You can use {@link http://bower.io Npm} to load chem.components into your project dependencies:
-        * >`npm install chem.components --save`
-    **/
+	
 	angular.module('githubEvents.providers', [])
 		.provider('githubEvents', GithubEventsProvider);
 
