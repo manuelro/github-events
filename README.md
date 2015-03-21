@@ -17,6 +17,9 @@ Add GithubEvents module to your AngularJS app dependencies (ngResource is a requ
 #####Dependencies
 This directive uses [ngResource](https://github.com/angular/bower-angular-resource) module to consume Github Api. Make sure to include ngResource in your project's scripts.
 
+##The result
+![githubEvents directive result](https://raw.githubusercontent.com/manuelro/github-events/master/app/images/result.png)
+
 ##Configuration options
 The GithubEvents Directive allows you to set some configuration inside the config block of your application using the `githubEventsProvider`. The available options are:
 ####Username
